@@ -163,8 +163,3 @@ app.put('/post', uploadMiddleware.single('file'), async(req, res) => {
 
 app.listen(4000);
 
-
-// kattapraneeth288
-// o2xRGs2k3pjlqPMr
-
-// mongodb+srv://kattapraneeth288:o2xRGs2k3pjlqPMr@cluster0.kmaukgk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
