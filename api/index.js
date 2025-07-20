@@ -62,7 +62,8 @@ app.post('/login', async (req, res) => {
             });
         });
     } else {
-        res.status(400).json('Wrong creds')
+        // check
+        res.status(400).json('Wrong ceds')
     }
 })
 
